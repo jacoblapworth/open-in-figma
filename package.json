@@ -1,0 +1,33 @@
+{
+  "name": "open-in-figma",
+  "version": "1.0.0",
+  "description": "Open Figma links in the desktop client.",
+  "main": "dist/request.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacoblapworth/open-in-figma.git"
+  },
+  "keywords": [
+    "figma",
+    "chrome",
+    "extension"
+  ],
+  "author": {
+    "name": "Jacob Lapworth",
+    "email": "jacob@lapworth.nz"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacoblapworth/open-in-figma/issues"
+  },
+  "homepage": "https://github.com/jacoblapworth/open-in-figma#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.190",
+    "esbuild": "^0.14.47",
+    "typescript": "^4.7.4"
+  }
+}
